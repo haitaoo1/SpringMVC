@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/api/var")
-public class PathVariableController {
+public class PathVariableController { 
 
     @PostMapping("/create")
     public User create(@RequestBody User user){
